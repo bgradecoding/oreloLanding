@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Orelo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <!-- Font Google -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand navbar-logo" href="#">
+          <svg
+            width="120"
+            height="40"
+            viewBox="0 0 120 40"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- Orelo 텍스트 -->
+            <text
+              x="10"
+              y="30"
+              font-family="Palatino, serif"
+              font-size="32"
+              font-style="italic"
+              font-weight="600"
+              fill="#4A148C"
+              letter-spacing="1"
+            >
+              Orelo
+            </text>
+
+            <!-- 장식적인 밑줄 -->
+            <path
+              d="M10 34 L90 34"
+              stroke="#4A148C"
+              stroke-width="2"
+              stroke-opacity="0.3"
+              stroke-linecap="round"
+            />
+          </svg>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="" data-scroll-nav="0">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="1">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="2">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="3">Faq</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="4">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-------Banner Start------->
+    <section class="banner" data-scroll-index="0">
+      <div class="banner-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-12">
+              <div class="banner-text">
+                <h2 class="white">실시간 다국어 통역 솔루션</h2>
+                <h6 class="white">
+                  100개 이상의 언어를 지원하는 AI 기반 실시간 통역 플랫폼
+                </h6>
+                <p class="banner-text white">
+                  Orelo는 모바일, MS Teams, Zoom, Webex 등 다양한 플랫폼에서
+                  실시간 통역과 AI 대화 요약 서비스를 제공합니다. 전세계
+                  어디서나 언어의 장벽 없이 원활한 커뮤니케이션이 가능합니다.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <img
+                src="images/iphone-screen.png"
+                class="img-fluid wow fadeInUp"
+                width="250"
+                height="300"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="svg-wave">
+        <img class="svg-hero" src="images/applight-wave.svg" />
+      </span>
+    </section>
+
+    <!-------Banner End------->
+
+    <!-------About End------->
+
+    <section class="about section-padding prelative" data-scroll-index="1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sectioner-header text-center">
+              <h3>About</h3>
+              <span class="line"></span>
+            </div>
+            <div class="section-content text-center">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                    <i class="fa fa-language" aria-hidden="true"></i>
+                    <h5>100개국 언어 지원</h5>
+                    <p>
+                      전세계 100개 이상의 언어를 지원하여 글로벌 커뮤니케이션을
+                      원활하게 지원합니다.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                    <i class="fa fa-sync" aria-hidden="true"></i>
+                    <h5>실시간 통역</h5>
+                    <p>
+                      AI 기술을 활용한 실시간 음성 및 텍스트 통역으로 즉각적인
+                      의사소통이 가능합니다.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">
+                    <i class="fa fa-robot" aria-hidden="true"></i>
+                    <h5>AI 대화 요약</h5>
+                    <p>
+                      인공지능이 대화 내용을 자동으로 분석하고 요약하여 핵심
+                      내용을 쉽게 파악할 수 있습니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="about-btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------About End------->
+
+    <!-------Features Start------->
+    <section class="testimonial section-padding" data-scroll-index="2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sectioner-header text-center text-white">
+              <h3>Features</h3>
+              <span class="line"></span>
+            </div>
+            <div class="section-content text-center">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.2s"
+                  >
+                    <div class="media-body text-right media-right-margin">
+                      <h5 class="text-white">다중 플랫폼 지원</h5>
+                      <p class="text-white">
+                        모바일, MS Teams, Zoom, Webex 등 다양한 플랫폼에서
+                        원활하게 사용 가능
+                      </p>
+                    </div>
+                    <div class="media-right icon-border">
+                      <span class="fa fa-sync" aria-hidden="true"></span>
+                    </div>
+                  </div>
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.4s"
+                  >
+                    <div class="media-body text-right media-right-margin">
+                      <h5 class="text-white">높은 정확도</h5>
+                      <p class="text-white">
+                        최신 AI 기술을 적용한 고정확도 번역으로 자연스러운
+                        의사소통 지원
+                      </p>
+                    </div>
+                    <div class="media-right icon-border">
+                      <span
+                        class="fa fa-check-double"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+                  </div>
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.6s"
+                  >
+                    <div class="media-body text-right media-right-margin">
+                      <h5 class="text-white">실시간 처리</h5>
+                      <p class="text-white">
+                        0.3초 이내의 빠른 응답 속도로 끊김없는 대화 가능
+                      </p>
+                    </div>
+                    <div class="media-right icon-border">
+                      <span class="fa fa-bolt" aria-hidden="true"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 d-none d-md-block d-lg-block">
+                  <div class="feature-mobile">
+                    <img
+                      src="images/iphone-screen-with-shadow.png"
+                      class="img-fluid wow fadeInUp"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.2s"
+                  >
+                    <div class="media-left icon-border media-right-margin">
+                      <span
+                        class="fa fa-check-double"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+                    <div class="media-body text-left">
+                      <h5 class="text-white">자동 언어 감지</h5>
+                      <p class="text-white">
+                        대화 상대방의 언어를 자동으로 감지하여 즉시 통역 시작
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.4s"
+                  >
+                    <div class="media-left icon-border media-right-margin">
+                      <span class="fa fa-hdd" aria-hidden="true"></span>
+                    </div>
+                    <div class="media-body text-left">
+                      <h5 class="text-white">대화 기록 관리</h5>
+                      <p class="text-white">
+                        통역된 대화 내용을 저장하고 AI가 자동으로 요약된 보고서
+                        제공
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.6s"
+                  >
+                    <div class="media-left icon-border media-right-margin">
+                      <span class="fa fa-robot" aria-hidden="true"></span>
+                    </div>
+                    <div class="media-body text-left">
+                      <h5 class="text-white">기업용 솔루션</h5>
+                      <p class="text-white">
+                        기업 맞춤형 보안 설정과 관리 기능으로 안전한 비즈니스
+                        커뮤니케이션 지원
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------Features End------->
+
+    <!-------Testimonial End------->
+
+    <!-------FAQ Start------->
+    <section class="faq section-padding prelative" data-scroll-index="3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sectioner-header text-center">
+              <h3>Frequently Asked Questions</h3>
+              <span class="line"></span>
+              <p>
+                Orelo의 실시간 통역 서비스에 대해 자주 묻는 질문들을 모았습니다.
+                기술적인 문의부터 서비스 이용 방법까지 상세히 안내해 드립니다.
+              </p>
+            </div>
+            <div class="section-content">
+              <div class="row">
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.2s"
+                >
+                  <h4>Orelo는 어떤 언어들을 지원하나요?</h4>
+                  <p>
+                    한국어, 영어, 일본어, 중국어를 포함하여 100개 이상의 언어를
+                    지원합니다. 주요 비즈니스 언어는 물론 소수 언어까지 폭넓게
+                    커버하고 있습니다.
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.2s"
+                >
+                  <h4>실시간 통역의 정확도는 어느 정도인가요?</h4>
+                  <p>
+                    최신 AI 기술을 적용하여 95% 이상의 높은 정확도를 제공합니다.
+                    특히 비즈니스 상황에서 자주 사용되는 전문 용어와 표현에 대해
+                    지속적인 학습을 통해 정확도를 높이고 있습니다.
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.4s"
+                >
+                  <h4>어떤 플랫폼에서 사용할 수 있나요?</h4>
+                  <p>
+                    iOS/Android 모바일 앱은 물론, MS Teams, Zoom, Webex 등 주요
+                    화상회의 플랫폼에서 플러그인 형태로 사용 가능합니다. 웹
+                    브라우저에서도 별도 설치 없이 이용할 수 있습니다.
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.4s"
+                >
+                  <h4>기업용 서비스는 어떤 특징이 있나요?</h4>
+                  <p>
+                    전용 관리자 콘솔, 기업 전용 용어 사전 구축, 보안 설정,
+                    사용자 권한 관리, 통역 내역 분석 리포트 등 기업에 특화된
+                    다양한 기능을 제공합니다.
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.6s"
+                >
+                  <h4>통역된 내용은 어떻게 저장되고 관리되나요?</h4>
+                  <p>
+                    모든 통역 내용은 암호화되어 안전하게 저장되며, AI가 자동으로
+                    대화 내용을 요약하여 제공합니다. 필요한 경우 통역 기록을
+                    검색하고 내보내기할 수 있습니다.
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.6s"
+                >
+                  <h4>인터넷 연결이 불안정할 때도 사용할 수 있나요?</h4>
+                  <p>
+                    네트워크 최적화 기술을 적용하여 불안정한 인터넷 환경에서도
+                    끊김 없는 서비스를 제공합니다. 오프라인 모드에서도 기본적인
+                    통역 기능을 사용할 수 있습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------FAQ End------->
+
+    <!-------Contact Start------->
+    <section class="contact section-padding" data-scroll-index="4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sectioner-header text-center">
+              <h3>Contact us</h3>
+              <span class="line"></span>
+              <p>
+                데모 시연이나 기업 맞춤형 서비스에 대해 상담이 필요하시다면
+                언제든 연락 주시기 바랍니다. 전문 상담원이 자세히 안내해
+                드리겠습니다.
+              </p>
+            </div>
+            <div class="section-content">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-8">
+                  <form id="contact_form" action="">
+                    <div class="row">
+                      <div class="col">
+                        <input
+                          type="text"
+                          id="your_name"
+                          class="form-input w-100"
+                          name="full-name"
+                          placeholder="Full Name"
+                          required
+                        />
+                      </div>
+                      <div class="col">
+                        <input
+                          type="email"
+                          id="email"
+                          class="form-input w-100"
+                          name="email"
+                          placeholder="Email"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="text"
+                      id="subject"
+                      class="form-input w-100"
+                      name="subject"
+                      placeholder="Subject"
+                    />
+                    <textarea
+                      class="form-input w-100"
+                      id="message"
+                      placeholder="Message"
+                      name="message"
+                    ></textarea>
+                    <button
+                      class="btn-grad w-100 text-uppercase"
+                      type="submit"
+                      name="button"
+                    >
+                      submit
+                    </button>
+                  </form>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                  <div class="contact-info white">
+                    <div class="contact-item media">
+                      <i
+                        class="fa fa-map-marker-alt media-left media-right-margin"
+                      ></i>
+                      <div class="media-body">
+                        <p class="text-uppercase">Address</p>
+                        <p class="text-uppercase">Seoul, Republic of Korea</p>
+                      </div>
+                    </div>
+                    <div class="contact-item media">
+                      <i class="fa fa-mobile media-left media-right-margin"></i>
+                      <div class="media-body">
+                        <p class="text-uppercase">Phone</p>
+                        <p class="text-uppercase">
+                          <a class="text-white" href="tel:+15173977100"
+                            >02-2024-1114</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="contact-item media">
+                      <i
+                        class="fa fa-envelope media-left media-right-margin"
+                      ></i>
+                      <div class="media-body">
+                        <p class="text-uppercase">E-mail</p>
+                        <p class="text-uppercase">
+                          <a class="text-white" href="mailto:abcdefg@gmail.com"
+                            >Orelo@lgcns.com</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="contact-item media">
+                      <i class="fa fa-clock media-left media-right-margin"></i>
+                      <div class="media-body">
+                        <p class="text-uppercase">Working Hours</p>
+                        <p class="text-uppercase">Mon-Fri 9.00 AM to 6.00PM.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------Contact End------->
+
+    <footer class="footer-copy">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <p>2024 &copy; Orelo LGCNS BuildCenter</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- scrollIt js -->
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      wow = new WOW();
+      wow.init();
+      $(document).ready(function (e) {
+        $("#video-icon").on("click", function (e) {
+          e.preventDefault();
+          $(".video-popup").css("display", "flex");
+          $(".iframe-src").slideDown();
+        });
+        $(".video-popup").on("click", function (e) {
+          var $target = e.target.nodeName;
+          var video_src = $(this).find("iframe").attr("src");
+          if ($target != "IFRAME") {
+            $(".video-popup").fadeOut();
+            $(".iframe-src").slideUp();
+            $(".video-popup iframe").attr("src", " ");
+            $(".video-popup iframe").attr("src", video_src);
+          }
+        });
+
+        $(".slider").bxSlider({
+          pager: false,
+        });
+      });
+
+      $(window).on("scroll", function () {
+        var bodyScroll = $(window).scrollTop(),
+          navbar = $(".navbar");
+
+        if (bodyScroll > 50) {
+          $(".navbar-logo img").attr("src", "images/logo-black.png");
+          navbar.addClass("nav-scroll");
+        } else {
+          $(".navbar-logo img").attr("src", "images/logo.png");
+          navbar.removeClass("nav-scroll");
+        }
+      });
+      $(window).on("load", function () {
+        var bodyScroll = $(window).scrollTop(),
+          navbar = $(".navbar");
+
+        if (bodyScroll > 50) {
+          $(".navbar-logo img").attr("src", "images/logo-black.png");
+          navbar.addClass("nav-scroll");
+        } else {
+          $(".navbar-logo img").attr("src", "images/logo-white.png");
+          navbar.removeClass("nav-scroll");
+        }
+
+        $.scrollIt({
+          easing: "swing", // the easing function for animation
+          scrollTime: 900, // how long (in ms) the animation takes
+          activeClass: "active", // class given to the active nav element
+          onPageChange: null, // function(pageIndex) that is called when page is changed
+          topOffset: -63,
+        });
+      });
+    </script>
+  </body>
+</html>
